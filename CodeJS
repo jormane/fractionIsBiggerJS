@@ -1,3 +1,5 @@
+// Created a function that quickly tells me what fraction is bigger, so I can ask it things like, "Which is bigger; three over four or five over seven?" 
+
 function findBiggestFraction(a,b) {
     let result;
     a>b ? result = ["firstFraction", a] : result = ["secondFraction", b];
